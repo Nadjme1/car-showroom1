@@ -8,6 +8,18 @@
 </head>
 <body>
   <h1>مرحبا بك في معرض السيارات</h1>
+  <div class="filters">
+    <input type="text" id="search" placeholder="ابحث باسم السيارة..." />
+    <select id="brand-filter">
+      <option value="">كل الماركات</option>
+    </select>
+    <select id="price-filter">
+      <option value="">كل الأسعار</option>
+      <option value="low">أقل من 20000</option>
+      <option value="mid">20000 - 50000</option>
+      <option value="high">أكثر من 50000</option>
+    </select>
+  </div>
   <div id="car-list"></div>
   <script src="script.js"></script>
 </body>

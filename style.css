@@ -1,0 +1,35 @@
+
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+#car-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.car {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.car img {
+  width: 100%;
+  border-radius: 5px;
+}
+.car h2 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+.car p {
+  margin: 5px 0;
+}
